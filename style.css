@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: #29292F;
+}
+
+h1, p, button {
+    font-family: 'Noto Sans', sans-serif !important;
+    color: white !important;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    border: none;
+    border-radius: 26px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.btn-group {
+    margin-bottom: 20px;
+}
+
+.add {
+    background-color: #0075DB;
+}
+
+.delete {
+    background-color: #737373;
+}
+
+.active {
+    background-color: #FF444C;
+}
+
+.list {
+    height: 100%;
+    padding-top: 0;
+    background-color: #17171A;
+    border: 1px solid #565664;
+}
+
+.list-item {
+    padding: 5px 10px;
+    border: 1px solid #565664 !important;
+}
+
+.selected {
+    background-color: #000344 !important;
+}
+
+.form-container {
+    background-color: #1D1D21;
+    height: 100%;
+}
+
+.form {
+    padding: 30px;
+}
+
+.form label {
+    margin-bottom: 20px;
+}
+
+label p {
+    font-size: 0.8em;
+    margin-block-end: 0.3em;
+}
+
+input[type=text] {
+    border: none;
+    background-color: #ffffff2d;
+    color: white;
+    padding: 5px;
+  }
+
+.grid-container {
+    height: 300px;
+}
+
+.grid {
+    height: 100%;
+}
+
+.no-materials-text {
+    text-align: center;
+    line-height: 300px;
+}
